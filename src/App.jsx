@@ -13,6 +13,7 @@ const App = () => {
       settitle("")
       setdesc("")
       console.log("Hello world")
+      console.log("Task added to your todo")
   }
   let rendertask = <h2>No Task Avialible</h2>
   

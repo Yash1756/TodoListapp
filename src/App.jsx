@@ -12,6 +12,7 @@ const App = () => {
      setmaintask([...maintask,{title,desc}])
       settitle("")
       setdesc("")
+      console.log("Hello world")
   }
   let rendertask = <h2>No Task Avialible</h2>
   
